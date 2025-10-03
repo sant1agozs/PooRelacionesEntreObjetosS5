@@ -46,10 +46,10 @@ public class Main {
         String[] metales = {"Hierro", "Acero", "Cobre"};
         MaquinaSoldar maq1 = new MaquinaSoldar("Outstanding Machine", "123BOOF", 12321, metales);
 
-        MaquinaSoldar maq2 = new MaquinaSoldar("Useless Machine", "FOOB321", 23422, metales);
+        // MaquinaSoldar maq2 = new MaquinaSoldar("Useless Machine", "FOOB321", 23422, metales);
 
         out.println("\nIntento de soldar:");
-        p1.soldarConMaquina(maq2, "Titanio");
+        p1.soldarConMaquina(maq1, "Titanio");
         p2.soldarConMaquina(maq1, "Hierro");
     }
 }
